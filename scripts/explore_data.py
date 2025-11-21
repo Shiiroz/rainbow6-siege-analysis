@@ -1,6 +1,17 @@
 import pandas as pd
 import os
 
+
+MYSQL_CONFIG = {
+    'host': 'localhost',
+    'user': 'root',
+    'password': 'Ryan@59215',  
+    'database': 'r6siege_db',
+    'port': 3306
+}
+
+
+
 def explore_dataset():
     """Explore le dataset R6 Siege téléchargé"""
     
@@ -45,3 +56,4 @@ def explore_dataset():
 
 if __name__ == "__main__":
     explore_dataset()
+    
