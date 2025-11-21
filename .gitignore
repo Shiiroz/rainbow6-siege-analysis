@@ -205,3 +205,46 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Données volumineuses
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.zip
+data/processed/*.csv
+
+# Credentials
+.kaggle/
+kaggle.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Base de données
+*.db
+*.sqlite
+*.sqlite3
+
+# Power BI (si trop volumineux)
+# *.pbix
